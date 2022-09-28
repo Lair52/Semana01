@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body{
+    background-color:hsl(30, 38%, 92%);
+    margin: 0px;
+}
+h3{
+    font-family: Fraunces;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 27px;
+    text-align: left;
+    font-family: 'Fraunces', serif;
+}
+P{
+    size: 14px;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+div {   
+    display: inline-block;
+}
+.infomation{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+}
+.image-principal{
+    display: block;
+    margin-left: auto;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.conteiner-princ{
+    width:40%;
+	height:50%;
+	border-radius: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.conteiner-imag{
+    width: 50%;
+    height: 100%;
+}
+.title-info{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+.description{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+.price-principal{
+    width: auto;
+    color: hsl(158, 36%, 37%);
+    margin: 0px;
+    margin-left: auto;
+    display: inline-block;
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+}
+.price-secund{
+    float: right;
+    width: 50%;
+    margin: 0px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+.button{
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: none;
+    color: white;
+    width: 70%;
+    height: 10%;
+    align-items: center;
+    border-radius: 14px;
+}
+.button:hover{
+    background-color: hsl(159, 37%, 20%);;
+}
